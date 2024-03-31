@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+   font-family: "Wix Madefor Text", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+ }
+ .container{
+    margin-left: 35px;
+    margin-right: 35px;
+    position: relative;
+    top: 150px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    grid-gap: 160px;
+    grid-auto-flow: row;
+}
+.details{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.heading a{
+    color: #fff;
+    text-decoration: none;
+}
+.element1{ 
+    color: rgb(249, 249, 249);
+    text-decoration: none;
+    min-height: 300px;
+    width: 300px;
+    padding-right: 1px; 
+    border: 0px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.741);
+    text-align: center;
+    transition: transform 0.3s;
+    cursor: pointer;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.edit{
+    color: black;
+}
+
+h1{ top: 13px;
+    width:150px;
+    height: 40px;
+    padding: 3px;
+    border-radius: 25px;
+    background-color: #000000;
+    color= black;
+    border: none;
+    cursor:pointer;
+    position: relative;
+    margin-left: 70px;
+    margin-right: 50px
+    
+}
